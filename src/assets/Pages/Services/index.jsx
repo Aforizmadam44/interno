@@ -1,8 +1,9 @@
+import Navigation from "../../Components/Navigation"
 
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div><Navigation/></div>
   )
 }
 

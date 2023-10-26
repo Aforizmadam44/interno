@@ -1,8 +1,9 @@
+import Navigation from "../../Components/Navigation"
 
 
 const Project = () => {
   return (
-    <div>Project</div>
+    <div><Navigation/></div>
   )
 }
 
