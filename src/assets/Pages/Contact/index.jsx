@@ -1,10 +1,12 @@
-import Navigation from "../../Components/Navigation"
-
+import Navigation from "../../Components/Navigation";
 
 const Contact = () => {
   return (
-    <div><Navigation/></div>
-  )
-}
+    <div>
+      <Navigation />
+      <h1>Contact</h1>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

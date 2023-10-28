@@ -1,10 +1,12 @@
-import Navigation from "../../Components/Navigation"
-
+import Navigation from "../../Components/Navigation";
 
 const Project = () => {
   return (
-    <div><Navigation/></div>
-  )
-}
+    <div>
+      <Navigation />
+      <h1>Projects</h1>
+    </div>
+  );
+};
 
-export default Project
+export default Project;

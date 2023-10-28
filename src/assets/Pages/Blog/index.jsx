@@ -1,10 +1,12 @@
-import Navigation from "../../Components/Navigation"
-
+import Navigation from "../../Components/Navigation";
 
 const Blog = () => {
   return (
-    <div><Navigation/></div>
-  )
-}
+    <div>
+      <Navigation />
+      <h1>Blog</h1>
+    </div>
+  );
+};
 
-export default Blog
+export default Blog;

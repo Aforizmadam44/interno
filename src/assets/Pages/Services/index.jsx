@@ -1,10 +1,12 @@
-import Navigation from "../../Components/Navigation"
-
+import Navigation from "../../Components/Navigation";
 
 const Services = () => {
   return (
-    <div><Navigation/></div>
-  )
-}
+    <div>
+      <Navigation />
+      <h1>Services</h1>
+    </div>
+  );
+};
 
-export default Services
+export default Services;
