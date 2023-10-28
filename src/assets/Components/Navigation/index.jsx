@@ -1,31 +1,36 @@
-
-import { NavLink } from 'react-router-dom'
-import { MyRoutes } from '../MyRoutes'
-import styles from './style.module.css'
-import "..//..//..//index.css"
+import { Link, NavLink } from "react-router-dom";
+import { MyRoutes } from "../MyRoutes";
+import styles from "./style.module.css";
+import "..//..//..//index.css";
 const Navigation = () => {
   return (
     <header className={styles.header}>
-        <div className="container">
-            <div className={styles.navbar}>
-        <div className="logo">
+      <div className="container">
+        <div className={styles.navbar}>
+          <Link to={"/"} className="logo">
             <img src="./Logo.svg" alt="Logo" />
+          </Link>
+          <nav>
+            {MyRoutes.map(({ id, path, title }) => {
+              return (
+                title && (
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive ? styles.active : styles.navlink
+                    }
+                    key={id}
+                    to={path}
+                  >
+                    {title}
+                  </NavLink>
+                )
+              );
+            })}
+          </nav>
         </div>
-        <nav>
-           {
-            MyRoutes.map(({id, path, title})=>{
-                return(
-                    title &&(<NavLink className={({isActive})=>isActive? styles.active : styles.navlink }  key={id} to={path}>{title}</NavLink>)
-                    )
-            })
-           }
-         
-        </nav>
-        </div>
-        </div>
-
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navigation
+export default Navigation;

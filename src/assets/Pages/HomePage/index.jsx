@@ -1,10 +1,13 @@
-import Navigation from "../../Components/Navigation"
-
+import Banner from "../../Components/Banner";
+import Navigation from "../../Components/Navigation";
 
 const HomePage = () => {
   return (
-    <div><Navigation/></div>
-  )
-}
+    <>
+      <Navigation />
+      <Banner />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
