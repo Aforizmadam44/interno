@@ -1,0 +1,32 @@
+.errorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.errorPhoto {
+  height: 650px;
+  border-radius: 0 0 0 30%;
+}
+.errorContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.errorTitle {
+  color: #cda274;
+  font-family: DM Serif Display;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 400;
+}
+.errorDescription {
+  color: #292f36;
+  font-family: DM Serif Display;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.35px;
+  margin: 20px 0;
+}
