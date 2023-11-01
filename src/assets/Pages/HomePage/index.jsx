@@ -1,5 +1,6 @@
 import AboutUs from "../../Components/AboutUs";
 import Banner from "../../Components/Banner";
+import Brands from "../../Components/Brands";
 import Navigation from "../../Components/Navigation";
 import Stylish from "../../Components/Stylish";
 import WorkPlans from "../../Components/WorkPlans";
@@ -21,6 +22,7 @@ const HomePage = () => {
       <WorkPlans />
       <Stylish />
       <AboutUs />
+      <Brands />
     </motion.div>
   );
 };
