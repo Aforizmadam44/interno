@@ -6,6 +6,7 @@ import Stylish from "../../Components/Stylish";
 import WorkPlans from "../../Components/WorkPlans";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
+import FollowProject from "../../FollowProject";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <Stylish />
       <AboutUs />
       <Brands />
+      <FollowProject />
     </motion.div>
   );
 };
