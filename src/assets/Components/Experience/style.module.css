@@ -1,0 +1,26 @@
+.container {
+  background-color: #f4f0ec;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 0;
+}
+.year {
+  color: #cda274;
+  font-family: DM Serif Display;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 106.25px */
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+.success {
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+  border-bottom: 1px solid #cda274;
+}

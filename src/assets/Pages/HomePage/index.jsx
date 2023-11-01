@@ -6,7 +6,8 @@ import Stylish from "../../Components/Stylish";
 import WorkPlans from "../../Components/WorkPlans";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
-import FollowProject from "../../FollowProject";
+import FollowProject from "../../Components/FollowProject";
+import Experience from "../../Components/Experience";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
       <AboutUs />
       <Brands />
       <FollowProject />
+      <Experience />
     </motion.div>
   );
 };
