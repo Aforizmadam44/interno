@@ -1,0 +1,22 @@
+.img {
+  border-radius: 0 40% 0 20%;
+}
+.title {
+  font-size: 40px;
+}
+.callContainer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.number {
+  font-weight: 700;
+  color: black;
+  font-size: 18px;
+  font-family: jost;
+}
+.button {
+  margin-top: 30px !important;
+}
